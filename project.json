@@ -1,0 +1,10 @@
+{
+	"name": "Example Theme",
+	"version": "1.0.0",
+	"author": "glsoo",
+	"description": "A starting point for Rinthify themes",
+	"options": [
+		{ "id": "accent", "type": "color", "label": "Accent", "default": "#7aa2f7" },
+		{ "id": "round", "type": "toggle", "label": "Rounder corners", "default": false }
+	]
+}

@@ -1,0 +1,18 @@
+/* dark blue surfaces, the accent comes from the theme's settings */
+html.dark-mode,
+html.oled-mode,
+html.light-mode {
+	--surface-1: #0b0e17;
+	--surface-2: #10141f;
+	--surface-3: #161b2a;
+	--surface-4: #1d2336;
+	--surface-5: #2a3250;
+	--color-brand: var(--accent);
+	--color-brand-highlight: color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+/* toggles set an attribute on <html> */
+html[data-round] {
+	--radius-md: 1rem;
+	--radius-lg: 1.25rem;
+}
